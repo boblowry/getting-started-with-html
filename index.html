@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - A Pen by  Robert Lowry</title>
+
+</head>
+
+<body>
+
+  <b>Unit 1</b><br>
+<u>The Basics of the Web</u><br><br>
+-The Web<br>
+-HTML<br>
+-URLs<br>
+-HTTP (Protocol the Web runs on)<br>
+-Web Applications<br><br>
+
+The World Wide Web is a collection of HTML documents.<br>
+HTML- HyperText Markup Language<br>
+HTML glues everything together<br>
+Hyperlinks make the Web "<em>Weblike</em>"<br>
+The Web was invented in the early 1990's<br>
+The Web currently consists of over 30 Billion Pages<br> <br>
+
+<b>MAJOR Pieces of the WEB:</b><br>
+You<br>
+Your computer running a Web Browser<br>
+The Internet<br>
+Servers<br><br>
+
+Your browser makes requests via the Internet (HTTP format) to Servers and the servers respond by sending files to your computer.<br>
+HTTP is protocol used to communicate with servers.<br><br>
+
+HTML - (HyperText Markup Language)<br> 
+<u>Made up of</U>:<br>
+-text content (<em>what you see</em>)<br>
+-markup (<em>what it looks like</em>)<br>
+-references to other documents (i.e.<em>images & videos</em>)<br>
+-links to other pages<br><br>
+
+<p>Markup is used to enhance the appearance of Plain Text.</p>
+
+<p><b><u>HTML Markup</u></b></P>
+
+HTML Markup is made up of "Tags".<br>
+&lt:NAME> &nbsp &nbsp &nbsp   Contents   &nbsp &nbsp &nbsp     &lt/NAME><br>
+or Opening Tag - Contents - Closing Tag<br>
+The whole thing referenced as an "Element"<br><br>
+
+<p><b>TAG:</b></P>
+B tag &ltb> content &lt/b> &nbsp(<em>makes the contents appear as <b>BOLD</b>)</em><br><br>
+HTML is <b> reasonably straightforward</b><br><br>
+
+<p><b>More Tags:</b></p>
+Em- emphasis – italics<br>
+&ltem> contents &lt/em><br>
+As HTML Tags can be nested to make an entire phrase italic and only some words Bold<br>
+Typing the following:<br>
+&ltem>HTML is &ltb>reasonably straightforward&lt/b>&lt/em><br>Appears like this:<br>
+<em>HTML is <b>reasonably straightforward</b></em>
+<p><b>COMPUTERS ARE STUPID</b></b></p>
+<p>Programmers mean computers interpret every command literally and have <b>no</b> intuitive correcting ability. Typos can lead to HUGE problems when given to a stupid computer
+
+For instance if you put in an Opening Tag and no Ending Tag the computer keeps doing whatever it was asked to do with the opening tag.</p>
+
+<p><b>HTML ATTRIBUTES</b></p> 
+&ltTag ATTR=”value”>   contents  &lt/Tag><br>
+Anchor - &lta>   (Anchors are for making LINKS)<br>
+&lta> href=”www.reddit.com” derp &lt/a><br> displays as<br>
+<a href="www.reddit,com">derp </a> <br>with derp functioning as a Hyperlink
+This website is <a href=”www.udacity.com”> my favorite </a>
+
+<p><b>IMAGES</b></p>
+&ltimg> - images<br>
+&ltimg src=”url” alt=”text”><br>
+alt is for broken requests. It displays if the image doesn’t work<br>
+
+VOID Tag – A tag that has no content (text typed in followed by a closing tag)<br>
+
+<p>Don’t freak out over too many facts! Google is always there to help find them.<br>
+Worry about understanding a few Big Ideas!</p>
+<br>
+<p><b>WHITESPACE:</b></p>
+Text on multiple lines using HTML appears all on one line unless special “Break Tags” are added.<br>
+&ltbr> creates a line break.
+Another way to add a break is to use the &ltp> tag<br>
+&ltp> = paragraph &lt/p> (P tag is not a Void Tag. It has content.)<br><br>
+
+<p><b>Inline and block elements</b></p>
+Container elements used to create web pages with complex structures.<br>
+
+<p><b>SPAN/DIV</b></p>
+
+&ltspan>  &nbsp:&nbsp:&nbsp	&ltdiv><br>
+text		&nbsp;&nbsp;&nbsp	text<br>
+&lt/span>	&nbsp;&nbsp	&lt/div><br>
+Inline		&nbsp;&nbsp;&nbsp	block<br><br>
+These elements do nothing but contain their content<br><br>
+
+&ltspan call=”foo”>  &nbsp;&nbsp	&ltdiv class=”bar”><br>
+text               css		&nbsp;&nbsp	text<br>
+&lt/span>		&nbsp;&nbsp	&lt/div><br>
+Inline			&nbsp;&nbsp	block<br>
+
+“foo” is CSS and is used to add style or control of how the text is laid out to the blocks contained.<br>
+
+Inline: a, span, br, img, strong<br>
+Block: div, p, form<br><br>
+
+<P><b>5 most important things in first lesson: Introduction to Programming</b></p>
+1.  What is a Web Page?<br>
+A web page is a text document written in a language called HTML. Web browsers read these documents, and then interpret and display them.<br>
+<br>2.	How Coding works<br>
+Coding happens when programmers write text in a language that a computer can understand. The computer can then follow the instructions the programmer wrote.<br>
+<br><br>3.	Computers are stupid<br>
+Whatever is typed is what they do, literally.
+<br<br>>4.	Programmers can’t remember everything<br>
+
+<br>5.	Basic HTML vocabulary<br>
+Tag-an HTML tag is always contained within angled brackets<>. Most have an open tag &ltp> and a close tag &ltp/> with a front slash in it. 
+Some tags, called void tags do not have a closing tag. Like &ltbr><br><br>
+Element-An HTML element refers to everything within a set of opening and closing tags.
+Attribute-This is a property of an HTML element. For example to set the href attribute of an anchor tag to the Udacity URL, you would write      <a href=”www.udacity.com”>
+
+</body>
+
+</html>
